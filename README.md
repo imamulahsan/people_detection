@@ -1,7 +1,7 @@
 # People Detection using Python, Flask and OpenCV
 > A python based person detection system from real time video through webcam. The web module is done with Flask and person detection is done with OpenCV.
 >
-> Live demo [_here_](https://www.youtube.com/@imamulahsan).
+> Live demo [_here_](https://www.youtube.com/@AhsanRadit).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -36,5 +36,5 @@ The following libraries should be installed to run the project.
 
 
 ## Contact
-Created by [@imamulahsan](https://www.youtube.com/@imamulahsan) - feel free to contact me!
+Created by [@imamulahsan](https://www.youtube.com/@AhsanRadit) - feel free to contact me!
 

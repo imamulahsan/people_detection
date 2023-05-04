@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Flask Start APP</title>
+
+    <!-- CSS  -->
+    <link href="./static/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="index_style">
+        <h1>Pedestrian Detection using Python, Flask and OpenCV</h1>
+        <p>This Web App detects persons from real time videos i.e using a webcam. The bounding rectangle is
+        the output of the detected person. This app uses Hog Descriptor to detect all the features of a person.
+        Further description can be found from the Youtube and Github links below</p>
+        <ul>
+        <li><a href="https://github.com/imamulahsan"> Github </a></li>
+        <li><a href="https://www.youtube.com/@AhsanRadit"> YouTube </a></li>
+        </ul>
+        <form action="/live_detection" method="post">
+            <button class="my_button" type="submit" value="Live">Start Live Stream</button>
+        </form>
+    </div>
+
+</body>
+</html>
